@@ -1,0 +1,6 @@
+framework module MAKVONotificationCenter {
+    umbrella header "MAKVONotificationCenter-Framework.h"
+
+    export *
+    module * { export * }
+}
