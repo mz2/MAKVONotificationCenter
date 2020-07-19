@@ -9,24 +9,17 @@
 /* Begin PBXBuildFile section */
 		5FEFDDAE1A1E755000CCC923 /* MAKVONotificationCenter-Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEFDDAD1A1E755000CCC923 /* MAKVONotificationCenter-Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FEFDDB41A1E755000CCC923 /* MAKVONotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEFDDA91A1E755000CCC923 /* MAKVONotificationCenter.framework */; };
-		5FEFDDBB1A1E755000CCC923 /* MAKVONotificationCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEFDDBA1A1E755000CCC923 /* MAKVONotificationCenterTests.m */; };
 		5FEFDDC21A1E75E200CCC923 /* MAKVONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26362DA0EA6BDF00069A639 /* MAKVONotificationCenter.m */; };
 		5FEFDDCE1A1E774300CCC923 /* MAKVONotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = C26362D90EA6BDF00069A639 /* MAKVONotificationCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0884F314E529D2001DDF7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6DA214875C66000587CA /* Foundation.framework */; };
 		FA0884F414E529D3001DDF7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6DA214875C66000587CA /* Foundation.framework */; };
 		FA3E685714E303F900DA720D /* MAKVONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26362DA0EA6BDF00069A639 /* MAKVONotificationCenter.m */; };
-		FAEC6D80148754C4000587CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6D7F148754C4000587CA /* SenTestingKit.framework */; };
 		FAEC6D84148754C4000587CA /* MAKVONotificationCenter-MacOS.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6D6B148754C3000587CA /* MAKVONotificationCenter-MacOS.dylib */; };
-		FAEC6D8D148754C4000587CA /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC6D8C148754C4000587CA /* Tests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FAEC6D9514875538000587CA /* MAKVONotificationCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = C26362D90EA6BDF00069A639 /* MAKVONotificationCenter.h */; };
 		FAEC6D9614875538000587CA /* MAKVONotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C26362DA0EA6BDF00069A639 /* MAKVONotificationCenter.m */; };
 		FAEC6DA314875C66000587CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6DA214875C66000587CA /* Foundation.framework */; };
-		FAEC6DB014875C66000587CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6D7F148754C4000587CA /* SenTestingKit.framework */; };
 		FAEC6DB314875C66000587CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6DA214875C66000587CA /* Foundation.framework */; };
 		FAEC6DB614875C66000587CA /* libMAKVONotificationCenter-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC6DA114875C66000587CA /* libMAKVONotificationCenter-iOS.a */; };
-		FAEC6DCA14875F01000587CA /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC6D8C148754C4000587CA /* Tests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FAEC6DCE14875F9D000587CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEC6DCC14875F9D000587CA /* InfoPlist.strings */; };
-		FAEC6DCF14875F9D000587CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEC6DCC14875F9D000587CA /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,25 +48,18 @@
 
 /* Begin PBXFileReference section */
 		5FEFDDA91A1E755000CCC923 /* MAKVONotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAKVONotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FEFDDAC1A1E755000CCC923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FEFDDAD1A1E755000CCC923 /* MAKVONotificationCenter-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MAKVONotificationCenter-Framework.h"; sourceTree = "<group>"; };
+		5FEFDDAC1A1E755000CCC923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Framework/Info.plist; sourceTree = "<group>"; };
+		5FEFDDAD1A1E755000CCC923 /* MAKVONotificationCenter-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MAKVONotificationCenter-Framework.h"; path = "../Framework/include/MAKVONotificationCenter-Framework.h"; sourceTree = "<group>"; };
 		5FEFDDB31A1E755000CCC923 /* MAKVONotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAKVONotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FEFDDB91A1E755000CCC923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FEFDDBA1A1E755000CCC923 /* MAKVONotificationCenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAKVONotificationCenterTests.m; sourceTree = "<group>"; };
-		C26362D90EA6BDF00069A639 /* MAKVONotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAKVONotificationCenter.h; path = MAKVONotificationCenter/MAKVONotificationCenter.h; sourceTree = "<group>"; };
-		C26362DA0EA6BDF00069A639 /* MAKVONotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAKVONotificationCenter.m; path = MAKVONotificationCenter/MAKVONotificationCenter.m; sourceTree = "<group>"; };
+		C26362D90EA6BDF00069A639 /* MAKVONotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MAKVONotificationCenter.h; path = Framework/include/MAKVONotificationCenter.h; sourceTree = "<group>"; };
+		C26362DA0EA6BDF00069A639 /* MAKVONotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MAKVONotificationCenter.m; path = Framework/MAKVONotificationCenter.m; sourceTree = "<group>"; };
 		FA3E686814E3270D00DA720D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAEC6D6B148754C3000587CA /* MAKVONotificationCenter-MacOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "MAKVONotificationCenter-MacOS.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC6D75148754C3000587CA /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		FAEC6D7E148754C4000587CA /* MAKVONotificationCenter-MacOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAKVONotificationCenter-MacOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEC6D7F148754C4000587CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		FAEC6D87148754C4000587CA /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = SOURCE_ROOT; };
-		FAEC6D8B148754C4000587CA /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = SOURCE_ROOT; };
-		FAEC6D8C148754C4000587CA /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = SOURCE_ROOT; };
 		FAEC6DA114875C66000587CA /* libMAKVONotificationCenter-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMAKVONotificationCenter-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC6DA214875C66000587CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAEC6DAF14875C66000587CA /* MAKVONotificationCenter-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAKVONotificationCenter-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAEC6DCD14875F9D000587CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6D80148754C4000587CA /* SenTestingKit.framework in Frameworks */,
 				FAEC6D84148754C4000587CA /* MAKVONotificationCenter-MacOS.dylib in Frameworks */,
 				FA0884F314E529D2001DDF7C /* Foundation.framework in Frameworks */,
 			);
@@ -122,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6DB014875C66000587CA /* SenTestingKit.framework in Frameworks */,
 				FAEC6DB314875C66000587CA /* Foundation.framework in Frameworks */,
 				FAEC6DB614875C66000587CA /* libMAKVONotificationCenter-iOS.a in Frameworks */,
 			);
@@ -135,10 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				08FB7795FE84155DC02AAC07 /* Source */,
-				FAEC6D73148754C3000587CA /* Tests */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
 				5FEFDDAA1A1E755000CCC923 /* MAKVONotificationCenter */,
-				5FEFDDB71A1E755000CCC923 /* MAKVONotificationCenterTests */,
 				FA3E686714E3270D00DA720D /* Frameworks */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
@@ -158,7 +140,6 @@
 		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				FAEC6D7F148754C4000587CA /* SenTestingKit.framework */,
 				FAEC6DA214875C66000587CA /* Foundation.framework */,
 			);
 			name = "External Frameworks and Libraries";
@@ -194,41 +175,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5FEFDDB71A1E755000CCC923 /* MAKVONotificationCenterTests */ = {
-			isa = PBXGroup;
-			children = (
-				5FEFDDBA1A1E755000CCC923 /* MAKVONotificationCenterTests.m */,
-				5FEFDDB81A1E755000CCC923 /* Supporting Files */,
-			);
-			path = MAKVONotificationCenterTests;
-			sourceTree = "<group>";
-		};
-		5FEFDDB81A1E755000CCC923 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5FEFDDB91A1E755000CCC923 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		FA3E686714E3270D00DA720D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				FA3E686814E3270D00DA720D /* Foundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FAEC6D73148754C3000587CA /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				FAEC6D8B148754C4000587CA /* Tests.h */,
-				FAEC6D8C148754C4000587CA /* Tests.m */,
-				FAEC6D87148754C4000587CA /* Tests-Info.plist */,
-				FAEC6DCC14875F9D000587CA /* InfoPlist.strings */,
-			);
-			name = Tests;
-			path = "MAKVONotificationCenter-MacOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +379,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6DCE14875F9D000587CA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +386,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6DCF14875F9D000587CA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEFDDBB1A1E755000CCC923 /* MAKVONotificationCenterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +449,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6D8D148754C4000587CA /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,7 +464,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAEC6DCA14875F01000587CA /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,17 +486,6 @@
 			targetProxy = FAEC6DB414875C66000587CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FAEC6DCC14875F9D000587CA /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAEC6DCD14875F9D000587CA /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB927908733DD40010E9CD /* Debug */ = {
@@ -765,12 +701,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -959,12 +895,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1149,12 +1085,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1337,12 +1273,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1428,12 +1364,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1473,12 +1409,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MAKVONotificationCenter/Info.plist;
+				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = MAKVONotificationCenter.modulemap;
+				MODULEMAP_FILE = Framework/MAKVONotificationCenter.modulemap;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.piipari.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

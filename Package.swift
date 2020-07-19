@@ -23,12 +23,7 @@ let package = Package(
         .target(
             name: "MAKVONotificationCenter",
             dependencies: [],
-            path: "./MAKVONotificationCenter"
-        ),
-        .testTarget(
-            name: "MAKVONotificationCenterTests",
-            dependencies: ["MAKVONotificationCenter"],
-            path: "./MAKVONotificationCenterTests"
-        ),
+            path: "./Framework"
+        )
     ]
 )
